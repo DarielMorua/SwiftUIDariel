@@ -14,6 +14,7 @@ struct NavigationWater: View{
                         
                         
                     }
+                    Spacer().frame(height:20)
                     NavigationLink (
                         destination: WaterTrackerView()
                     )  {
@@ -21,7 +22,8 @@ struct NavigationWater: View{
                         
                         
                     }
-                }
+                    Spacer()
+                }.padding()
             }
         }
     }
