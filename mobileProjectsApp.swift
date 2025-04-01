@@ -11,7 +11,7 @@ import SwiftUI
 struct mobileProjectsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationWater()
         }
     }
 }
